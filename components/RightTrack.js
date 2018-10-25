@@ -6,7 +6,7 @@ class RightTrack extends Component {
   render() {
     return (
       <Track
-        translate={[4, -1.5, -4]}
+        translate={[4, -4, -4]}
         scale={[0.001, 0.001, 0.001]}
         rotateZ={0}
         color={this.props.color}
